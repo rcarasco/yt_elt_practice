@@ -150,7 +150,7 @@ services:
     # Test connection to 1 of 3 dbs, the metadata db in this case
     healthcheck:
       test: ["CMD", "pg_isready", "-U", "${POSTGRES_CONN_USERNAME}", "-d", "${METADATA_DATABASE_NAME}"]
-      interval: 10s
+      interval: 15s
       retries: 5
       start_period: 5s
     restart: always
