@@ -1,0 +1,6 @@
+# soda-core-postgres==3.3.14
+# pytest==8.3.3
+
+
+soda-core-postgres=3.5.6
+pytest==7.4.4
